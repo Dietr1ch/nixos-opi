@@ -1,0 +1,3 @@
+#+title: NixOS - Orange Pi
+
+This is based on [[https://github.com/gnull/nixos-rk3588/tree/main/examples/upstream-opi][gh:gnull/nixos-rk3588 :/examples/upstream-opi/]].
