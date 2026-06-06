@@ -25,17 +25,5 @@
     ]; # ..environment.systemPackages
   }; # ..environment
 
-  services = {
-    # Enable the OpenSSH daemon.
-    openssh = {
-      enable = true;
-      openFirewall = true;
-      settings = {
-        X11Forwarding = true;
-        PasswordAuthentication = true;
-      };
-    }; # ..services.openssh
-  }; # ..services
-
   system.stateVersion = "26.05";
 }
